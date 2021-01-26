@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+textarea {
+  resize: none;
+  text-align: center;
+  font-size: 100%;
+  font-family: 'Oswald', sans-serif, cursive;
+  color: DarkGreen;
+  background-color: #A0DAA9;
+}
+
+a.Nav:link{
+  font-family: 'Oswald', sans-serif;
+  color: #00A170;
+  padding: 0px 10px;
+  border: 1px, solid, #eee;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #eee;
+}
+a.Nav:visited{
+  color: #00A170;
+  padding: 0px 10px;
+  border: 1px, solid, #eee;
+  background-color: #eee;
+}
+a.Nav:active{
+  color: #eee;
+  border: 1px, solid, #A0DAA9;
+  background-color: #A0DAA9;
+}
+a.Nav:hover{
+  color: #eee;
+  border: 1px, solid, #A0DAA9;
+  background-color: #A0DAA9;
+}
+
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+.smol{
+  height: 50px;
+  width: 50px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+table.Medias {
+  text-align: center;
+  width: 100%;
+}
+td.Medias {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#AboutUs .profile-img {
+    width: 350px;
+    height:auto;
+}
+
+#AboutUs{
+  height: 150vh;
+  font-size: 200%;
+  font-family: 'Oswald', sans-serif, cursive;
+  color: #00A170;
+  background-color: #A0DAA9;
+}
+
+#AboutUs a, img{
+  width: 70px;
+  height: 70px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#AboutUs a:hover{
+  opacity: 0.7;
+}
+
+#Contact{
+  height: 100vh;
+  font-size: 200%;
+  font-family: 'Oswald', sans-serif, cursive;
+  text-align: left;
+  color: #00A170;
+  background-color: #A0DAA9;
+}
+
+#Girls{
+  height: 400vh;
+  font-size: 200%;
+  font-family: 'Oswald', sans-serif, cursive;
+  text-align: center;
+  color: #00A170;
+  background-color: #A0DAA9;
+}
+
+table.Girls {
+  text-align: center;
+  padding-bottom: 30px;
+  width: 100%;
+}
+table.Girls img{
+  padding: 20px;
+  padding-bottom: 30px;
+  width: 500px;
+  height: 500px;
+}
+
+.gallery{
+  background-color: #A0DAA9;
+  padding-top: 50px;
+}
+.gallery img{
+  padding: 15px;
+  width: 350px;
+  height: 350px;
+}
+.gallery a:link, a:visited {
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+.gallery a:hover, a:active {
+    border: 1px, solid, #00A170;
+    background-color: #00A170;
+  }
+.desc {
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 150%;
+  color: #eee;
+  text-align: center;
+}
+
+#Survey{
+  height: 100vh;
+  font-size: 200%;
+  font-family: 'Oswald', sans-serif, cursive;
+  text-align: center;
+  color: #00A170;
+  background-color: #A0DAA9 ;
+  }
+
+#Survey a:link, a:visited {
+  color: #00A170;
+  background-color: inherit;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+
+#Survey a:hover, a:active {
+  color: #00A170;
+  border: 1px, solid, #A0DAA9;
+  background-color: #A0DAA9;
+  }
